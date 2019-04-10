@@ -1,0 +1,58 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Verdana, sans-sans-serif;
+  top: 0px; left: 50%;
+  background-color: green;
+  margin: 0% 0;
+  float: left;
+  padding: 10px 10px;
+  height: 300px;
+  width: 100%;
+}
+
+/*background-image: url("../images/statusbar.png")*/
+
+.container {
+  height: 400px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+input[type=search] {
+	padding: 10px;
+  height: 6px;
+  width: 435px;
+	font-family: Georgia;
+	border: 2px solid black;
+	background: #F2F2F2;
+}
+
+
+@media screen and (min-width: 700px){
+  .container {
+  margin: 0 auto;
+  padding: 10px;
+  width:50%;
+  }
+}
+
+/*desktop*/
+@media screen and (min-width: 900px){
+  .container {
+  margin: 0 auto;
+  padding: 10px;
+  width:25%;
+  }
+}
+
+h2 {
+  color: green;
+}
+
+tr {
+  background-color: #FFFFFF;
+}
